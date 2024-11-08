@@ -2,7 +2,7 @@ pada = False
 licznik_nie = 0
 while not pada:
   print("Nie pada")
-  odpowiedz - input("czy pada? (tak/nie)")
+  odpowiedz = input("czy pada? (tak/nie)")
   if odpowiedz == 'tak':
     print('powiedziales nie: ', licznik_nie , 'razy')
     pada = True
