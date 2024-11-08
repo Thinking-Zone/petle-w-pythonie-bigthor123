@@ -8,5 +8,7 @@ while not pada:
     pada = True
   elif odpowiedz == 'nie':
     licznik_nie += 1
-  else:
+  elif odpowiedz == 'nie wiem':
     print("to wyjdz na dwor i sie dowiedz")
+  else:
+    print("odpowiedz tak lub nie")
